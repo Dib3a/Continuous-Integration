@@ -20,4 +20,11 @@ public class Calculator {
         }
     }
 
+    public static double squareRoot(double a) {
+        if (a < 0) {
+            throw new IllegalArgumentException("Cannot calculate the square root of a negative number.");
+        }
+        return Math.sqrt(a);
+    }
+
 }
