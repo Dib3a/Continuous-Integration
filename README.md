@@ -1,3 +1,5 @@
+![Java CI](https://github.com/<your-username>/<your-repository>/actions/workflows/java-tests.yml/badge.svg)
+
 This is a program that serves as a calculator.
 
 The files in this repository include:
