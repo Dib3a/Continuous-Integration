@@ -1,4 +1,8 @@
-![Java CI](https://github.com/<your-username>/<your-repository>/actions/workflows/java-tests.yml/badge.svg)
+
+
+[![Java CI](https://github.com/Dib3a/Continuous-Integration/actions/workflows/YAML.yml/badge.svg)](https://github.com/Dib3a/Continuous-Integration/actions/workflows/YAML.yml)
+
+
 
 This is a program that serves as a calculator.
 
