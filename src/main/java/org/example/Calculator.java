@@ -1,6 +1,6 @@
 package org.example;
 
-public class calculate {
+public class Calculator {
 
     public static double calculate(double a, double b, String operation) {
         switch (operation) {
