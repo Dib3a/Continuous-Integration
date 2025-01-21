@@ -2,9 +2,9 @@ This is a program that serves as a calculator.
 
 The files in this repository include:
 
-Main File
+1) Main File
 
-Calculator Class
+2) Calculator Class
 
-CalculatorTest File
+3) CalculatorTest File
 
