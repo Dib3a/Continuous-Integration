@@ -27,4 +27,8 @@ public class Calculator {
         return Math.sqrt(a);
     }
 
+    public static double square(double a) {
+        return a*a;
+    }
+
 }

@@ -49,12 +49,21 @@ class CalculatorTest {
         assertEquals(5.0, Calculator.calculate(2.0, 3.0, "Add")); // Mixed case
     }
 
+    @Test
     void testSquareRoot() {
 
         assertEquals(4.0, Calculator.squareRoot(16), 0.001, " 4");
         assertEquals(2.236, Calculator.squareRoot(5), 0.001, " 2.236");
 
         assertEquals(0.0, Calculator.squareRoot(0), 0.001, " 0");
+    }
+
+    @Test
+    void testSquare() {
+
+        assertEquals(4.0, Calculator.square(2));
+
+        assertNotEquals(0.0, Calculator.square(1));
     }
 
 }
