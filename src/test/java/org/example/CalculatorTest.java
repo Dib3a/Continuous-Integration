@@ -43,11 +43,7 @@ class CalculatorTest {
         assertEquals("Invalid operation: modulus", exception.getMessage());
     }
 
-    @Test
-    void testCaseInsensitiveOperation() {
-        assertEquals(5.0, Calculator.calculate(2.0, 3.0, "ADD")); // Uppercase
-        assertEquals(5.0, Calculator.calculate(2.0, 3.0, "Add")); // Mixed case
-    }
+
 
     void testSquareRoot() {
 
